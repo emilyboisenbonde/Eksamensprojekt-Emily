@@ -1,0 +1,90 @@
+
+
+header{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 5px solid #345a33;
+    position: sticky;
+    top:0px;
+    background-color:#fefae6;
+}
+
+/*logoet*/
+header img{
+    height: 50%;
+   margin-right: 5%;
+}
+#mobilid img{
+    width:80px;
+    color: #218c74;
+    margin-top:30px;
+}
+
+header a{
+    font-family: 'Comfortaa', cursive;
+    font-weight:bolder;
+    color:#345a33;
+    letter-spacing:1px;
+}
+
+
+header nav{
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+
+
+header nav a{
+    text-decoration: none;
+    color:#345a33;
+    font-size:17pt;
+    font-weight:bolder;
+    font-family: 'Comfortaa', cursive bold;
+}
+
+
+a href{
+    margin-right: 20px;
+    margin-bottom: 100px;
+}
+
+
+
+/*RESPONSIV MOBIL HEADER*/
+@media screen and (max-width:910px) {
+
+header{
+    justify-content:space-between ;
+    padding-left:10px;
+    padding-right:10px;
+}
+
+#logo{ /* Logoet skal være mindre på mobil. */
+    width:80px;
+}
+ /* Skjul laptopmenuen på mobil. */
+ #laptopid {
+    display:none; 
+}
+
+#frontimage img{
+    width:90%;
+}
+
+}
+
+/*RESPONSIV LAPTOP HEADER*/
+@media screen and (min-width:910px){
+
+#mobilid{
+        display:none;
+    }
+}    
+
+
